@@ -32,14 +32,27 @@ The management team at Lio wants to gain insights into:
 
 ### 🔍 Primary Questions
 
-1. **What is the total number of users for LioCinema and Jotstar, and how do they compare in terms of growth trends (January–November 2024)?**
-   ![image](https://github.com/user-attachments/assets/1dcac6c7-d9b6-465f-98fd-12ac3471ec2f)]
-   
-   LioCinema significantly outweighs Jotstar in terms of the total number of users. 
-   
-   ![Screenshot 2025-04-16 110433](https://github.com/user-attachments/assets/1796a5c5-f042-41a4-a92e-af7de615d17f)
+---
 
-   The data clearly indicates that LioCinema has a significantly larger user base and is experiencing a much more robust growth trajectory compared to Jotstar. This suggests that LioCinema is more effective at attracting and retaining users during this period. While Jotstar is also growing, its rate of user acquisition is considerably slower.
+### 📌 Q.1: What is the total number of users for LioCinema and Jotstar, and how do they compare in terms of growth trends (January–November 2024)?
+
+**Answer:**
+
+<br>
+
+![image](https://github.com/user-attachments/assets/1dcac6c7-d9b6-465f-98fd-12ac3471ec2f)]
+
+<br>
+
+LioCinema significantly outweighs Jotstar in terms of the total number of users. 
+
+<br>
+
+![Screenshot 2025-04-16 110433](https://github.com/user-attachments/assets/1796a5c5-f042-41a4-a92e-af7de615d17f)
+
+<br>
+
+The data clearly indicates that LioCinema has a significantly larger user base and is experiencing a much more robust growth trajectory compared to Jotstar. This suggests that LioCinema is more effective at attracting and retaining users during this period. While Jotstar is also growing, its rate of user acquisition is considerably slower.
 
 
 3. **What is the total number of contents available on LioCinema vs. Jotstar? How do they differ in terms of language and content type?**  
