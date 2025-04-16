@@ -84,6 +84,36 @@ The content portfolios of LioCinema and Jotstar exhibit distinct strategic focus
 
 Jotstar exhibits a clear advantage in the breadth and depth of its content library across all three major content types: Movies, Series, and Sports. Its significantly higher content volume, particularly in Series and Sports, suggests a strategy focused on providing a more comprehensive and diverse entertainment offering to its users. LioCinema's content strategy appears to be more selective, with a smaller but still substantial movie library. Its considerably lower number of series and sports content might indicate a different strategic focus
 
+### 📌 Q.3: What is the distribution of users by age group, city tier, and subscription plan for each platform?
+
+**Answer:**
+
+<br>
+
+![image](https://github.com/user-attachments/assets/f1fb4f45-57ed-49c1-b91b-5f623e5ba10b)
+
+
+<br>
+
+LioCinema's user base is heavily skewed towards the younger 18-24 age group, which makes up almost half of its users. This suggests a strong appeal to Gen Z. Jotstar, in contrast, has a more balanced distribution, with the 25-34 age group being its largest segment. This indicates a focus on millennials. The differences in age demographics could reflect different content strategies or marketing approaches. LioCinema may be leveraging social media and trending content to attract younger viewers, while Jotstar's content might resonate more with an older audience. 
+
+<br>
+
+![image](https://github.com/user-attachments/assets/e2d7312d-9401-444b-9000-a68d88cd179d)
+
+
+
+<br>
+
+The user distribution across city tiers reveals distinct market penetration strategies for LioCinema and Jotstar. Jotstar's user base is heavily concentrated in Tier 1 cities, Conversely, LioCinema exhibits a stronger presence in Tier 2 and, particularly, Tier 3 cities.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/7578369b-b0d8-416a-b8aa-f71ac7c157fe)
+
+<br>
+
+Jotstar exhibits a clear advantage in the breadth and depth of its content library across all three major content types: Movies, Series, and Sports. Its significantly higher content volume, particularly in Series and Sports, suggests a strategy focused on providing a more comprehensive and diverse entertainment offering to its users. LioCinema's content strategy appears to be more selective, with a smaller but still substantial movie library. Its considerably lower number of series and sports content might indicate a different strategic focus
 
    **Plan Pricing (Monthly):**
    - LioCinema Basic: ₹69  
