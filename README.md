@@ -54,20 +54,36 @@ LioCinema significantly outweighs Jotstar in terms of the total number of users.
 
 The data clearly indicates that LioCinema has a significantly larger user base and is experiencing a much more robust growth trajectory compared to Jotstar. This suggests that LioCinema is more effective at attracting and retaining users during this period. While Jotstar is also growing, its rate of user acquisition is considerably slower.
 
+### 📌 Q.2: What is the total number of contents available on LioCinema vs. Jotstar? How do they differ in terms of language and content type? 
 
-3. **What is the total number of contents available on LioCinema vs. Jotstar? How do they differ in terms of language and content type?**  
-   ![Screenshot](screenshots/content_library.png)
+**Answer:**
 
-### 📊 Deep-Dive Questions
+<br>
 
-3. **Distribution of users** by age group, city tier, and subscription plan.  
-4. **Active vs. inactive user rates**, segmented by age group and subscription plan.  
-5. **Average watch time comparison** across platforms, city tiers, and device types.  
-6. **Correlation between inactivity and watch time** – Are low-engagement users more likely to go inactive?  
-7. **Downgrade patterns** – Which platform sees more downgrades?  
-8. **Common upgrade paths** (e.g., Free → VIP, Free → Premium) for each platform.  
-9. **Paid user penetration** by city tier (Tier 1/2/3) and platform.  
-10. **Revenue estimation** using monthly plan prices and subscriber activity over the period.
+![image](https://github.com/user-attachments/assets/378b4132-9c44-4185-b765-0b57ccfc89c6)
+
+
+<br>
+
+Jotstar has more content than liocinema.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/8452734a-e062-4145-8d7c-954700e9d46b)
+
+
+<br>
+
+The content portfolios of LioCinema and Jotstar exhibit distinct strategic focuses based on language. Jotstar appears to have a broader content library, particularly excelling in English and Hindi content, which likely caters to a wider pan-Indian audience. Its inclusion of content in regional languages like Bengali, Gujarati, Marathi, and Punjabi further diversifies its offerings. LioCinema, while having a smaller overall content volume, demonstrates a relative strength in South Indian languages (Kannada, Malayalam, Tamil, Telugu) alongside a significant Hindi library. Its considerably lower English content suggests a potential strategic focus on non-English speaking demographics or a different approach to acquiring English language content.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/7578369b-b0d8-416a-b8aa-f71ac7c157fe)
+
+<br>
+
+Jotstar exhibits a clear advantage in the breadth and depth of its content library across all three major content types: Movies, Series, and Sports. Its significantly higher content volume, particularly in Series and Sports, suggests a strategy focused on providing a more comprehensive and diverse entertainment offering to its users. LioCinema's content strategy appears to be more selective, with a smaller but still substantial movie library. Its considerably lower number of series and sports content might indicate a different strategic focus
+
 
    **Plan Pricing (Monthly):**
    - LioCinema Basic: ₹69  
