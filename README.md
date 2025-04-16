@@ -124,7 +124,6 @@ LioCinema relies heavily on a freemium model, with a large majority of its users
 
 ![image](https://github.com/user-attachments/assets/e2d4e3ee-b61d-4cb8-8fee-58e39d1e16fb)
 
-
 <br>
 
 The user activity data reveals a stark contrast in user engagement between LioCinema and Jotstar. Jotstar demonstrates a much healthier and more engaged user base, with nearly 9 out of 10 users being active. This high level of activity suggests strong user retention, compelling content, and potentially effective engagement strategies. LioCinema, while having a majority of active users, also has a considerable segment of inactive users (almost 40%). This could indicate issues with user churn, a less engaging content library for a segment of its users, or a large number of users who signed up but do not regularly use the platform. The relatively high percentage of inactive users might be a concern, as it represents a potential lost opportunity for revenue generation and platform growth.
@@ -141,10 +140,83 @@ For LioCinema, younger users (18-24) show a higher tendency towards inactivity c
 
 ![image](https://github.com/user-attachments/assets/895502e8-302b-4efc-bbad-c341a77e8e7c)
 
-
 <br>
 
 For Liocinema, free users exhibit the lowest activity and highest inactivity, suggesting a significant portion may be casual browsers or users who signed up without strong intent. As users upgrade to the Basic and then Premium plans, their activity levels increase substantially, indicating higher value and engagement among paying subscribers. Jotstar demonstrates a robustly engaged user base across all its visible subscription plans. Even its free users show a significantly higher active rate compared to LioCinema's free users.
+
+### 📌 Q.5: What is the average watch time for LioCinema vs. Jotstar during the analysis period? How do these compare by city tier and device type? 
+**Answer:**
+
+<br>
+
+![image](https://github.com/user-attachments/assets/db789985-fdac-453c-8860-cf94f54908cc)
+
+<br>
+
+The average watch time per user on Jotstar (351.73 hours) is dramatically higher than that of LioCinema (60.14 hours) during the analyzed period. This significant disparity indicates a much higher level of user engagement and content consumption on the Jotstar platform.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/02fefc8a-5ce8-41b3-9460-bc36aee3d72e)
+
+<br>
+
+Across all device types, Jotstar users exhibit significantly higher average watch times compared to LioCinema users. The preference for mobile viewing is evident on both platforms, but Jotstar commands much longer engagement on mobile. The large discrepancies in TV and laptop watch times further emphasize the difference in user engagement levels between the two platforms across larger screen devices, which are often associated with longer, more immersive viewing sessions.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/ec79711f-cfc9-411f-9eea-156ea9710efd)
+
+<br>
+
+Jotstar users consistently spend significantly more time watching content across all city tiers compared to LioCinema users. The difference is most pronounced in Tier 1 cities.
+
+### 📌 Q.6: How do inactivity patterns correlate with total watch time or average watch time? Are less engaged users more likely to become inactive?
+
+**Answer:**
+
+<br>
+
+![image](https://github.com/user-attachments/assets/e42feb16-ebbd-40b8-bb91-8249a337fb30)
+
+
+<br>
+
+The data provides clear evidence that:Higher engagement (measured by average watch time) is associated with active users. Lower engagement (lower average watch time) is strongly correlated with user inactivity.
+Therefore, less engaged users, characterized by lower watch times, are indeed more likely to become inactive.
+
+### 📌 Q.7: How do downgrade trends differ between LioCinema and Jotstar? Are downgrades more prevalent on one platform compared to the other? 
+
+**Answer:**
+
+<br>
+
+**Based on month by month analysis:**
+
+![image](https://github.com/user-attachments/assets/bf7f86ef-5ff7-4e76-95a7-92adf184f820)
+
+
+****Based on cumulative user analysis:**
+
+![image](https://github.com/user-attachments/assets/bb82bbb9-7d2a-4be3-96dc-a50eab98232f)
+
+
+<br>
+
+Overall, the combined analysis strongly suggests that LioCinema faces a greater challenge in retaining its premium subscribers compared to Jotstar. Addressing the factors driving these higher downgrade rates is critical for LioCinema to improve its revenue stability and maximize the value of its subscriber base.
+
+### 📌 Q.8: What are the most common upgrade transitions (e.g., Free to Basic, Free to VIP, Free to Premium) for LioCinema and Jotstar? How do these differ across platforms?
+
+**Answer:**
+
+<br>
+
+![image](https://github.com/user-attachments/assets/219da8ca-c946-48b5-a01b-005154d8fd7c)
+
+
+<br>
+
+LioCinema's upgrade patterns suggest a more traditional funnel, with the initial conversion from free being to the Basic plan. This could indicate that the Basic tier offers a compelling entry point into paid subscriptions. Jotstar's upgrade dynamics are less conventional. The significant "upgrade" from VIP to Premium is a key area for further analysis. It could imply that the Premium tier offers better value or more desirable content than the VIP tier, leading users to switch. 
 
 
 
