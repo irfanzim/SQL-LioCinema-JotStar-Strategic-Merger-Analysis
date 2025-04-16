@@ -24,7 +24,7 @@ The management team at Lio wants to gain insights into:
 ## 🧰 Tech Stack
 
 - **MySQL** – Core data wrangling and analysis
-- **Power-Bi** – For visual storytelling. Click Here (https://github.com/irfanzim/Power-BI-LioCinema-Jotstar-Merger-Analysis-)
+- **Power-Bi** – For visual storytelling. Click Here [Click Here](https://github.com/irfanzim/Power-BI-LioCinema-Jotstar-Merger-Analysis-)
 
 ---
 
