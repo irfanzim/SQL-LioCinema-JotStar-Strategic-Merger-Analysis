@@ -109,11 +109,45 @@ The user distribution across city tiers reveals distinct market penetration stra
 
 <br>
 
-![image](https://github.com/user-attachments/assets/7578369b-b0d8-416a-b8aa-f71ac7c157fe)
+![image](https://github.com/user-attachments/assets/3d33c9f6-3759-4fa4-990e-34ab9e903ddd)
+
 
 <br>
 
-Jotstar exhibits a clear advantage in the breadth and depth of its content library across all three major content types: Movies, Series, and Sports. Its significantly higher content volume, particularly in Series and Sports, suggests a strategy focused on providing a more comprehensive and diverse entertainment offering to its users. LioCinema's content strategy appears to be more selective, with a smaller but still substantial movie library. Its considerably lower number of series and sports content might indicate a different strategic focus
+LioCinema relies heavily on a freemium model, with a large majority of its users on the free plan. A significant portion also opts for the Basic plan, while a smaller percentage upgrades to Premium. The high number of free users indicates a potential focus on user acquisition and leveraging this base for future conversions to paid plans. Jotstar, on the other hand, has a smaller proportion of free users compared to LioCinema. Its user base is primarily concentrated in the higher-value Premium and VIP tiers, with the VIP plan accounting for the largest segment. This suggests a strategy focused on attracting and retaining paying subscribers with potentially exclusive content or features offered in these premium tiers.
+
+### 📌 Q.4: What percentage of LioCinema and Jotstar users are active vs. inactive? How do these rates vary by age group and subscription plan? 
+
+**Answer:**
+
+<br>
+
+![image](https://github.com/user-attachments/assets/e2d4e3ee-b61d-4cb8-8fee-58e39d1e16fb)
+
+
+<br>
+
+The user activity data reveals a stark contrast in user engagement between LioCinema and Jotstar. Jotstar demonstrates a much healthier and more engaged user base, with nearly 9 out of 10 users being active. This high level of activity suggests strong user retention, compelling content, and potentially effective engagement strategies. LioCinema, while having a majority of active users, also has a considerable segment of inactive users (almost 40%). This could indicate issues with user churn, a less engaging content library for a segment of its users, or a large number of users who signed up but do not regularly use the platform. The relatively high percentage of inactive users might be a concern, as it represents a potential lost opportunity for revenue generation and platform growth.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/e3711a66-2d57-4864-aa82-0562befc568d)
+
+<br>
+
+For LioCinema, younger users (18-24) show a higher tendency towards inactivity compared to older age groups. As the age group increases, the proportion of active users rises, suggesting potentially stronger engagement and retention among older demographics.Jotstar, in contrast, demonstrates remarkably high engagement across all age groups, with active user rates consistently above 86%. This indicates a strong ability to retain users regardless of their age.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/895502e8-302b-4efc-bbad-c341a77e8e7c)
+
+
+<br>
+
+For Liocinema, free users exhibit the lowest activity and highest inactivity, suggesting a significant portion may be casual browsers or users who signed up without strong intent. As users upgrade to the Basic and then Premium plans, their activity levels increase substantially, indicating higher value and engagement among paying subscribers. Jotstar demonstrates a robustly engaged user base across all its visible subscription plans. Even its free users show a significantly higher active rate compared to LioCinema's free users.
+
+
+
 
    **Plan Pricing (Monthly):**
    - LioCinema Basic: ₹69  
