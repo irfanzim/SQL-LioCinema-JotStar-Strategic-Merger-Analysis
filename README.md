@@ -42,6 +42,8 @@ The management team at Lio wants to gain insights into:
 
 ![image](https://github.com/user-attachments/assets/1dcac6c7-d9b6-465f-98fd-12ac3471ec2f)]
 
+[code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/Check%20Metrics/1.%20Total%20User.sql)
+
 <br>
 
 LioCinema significantly outweighs Jotstar in terms of the total number of users. 
