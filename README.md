@@ -71,7 +71,7 @@ Jotstar has more content than liocinema.
 
 <br>
 
-![image](https://github.com/user-attachments/assets/8452734a-e062-4145-8d7c-954700e9d46b) [code] (https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/2.%20PQ%202%20(Language).sql)
+![image](https://github.com/user-attachments/assets/8452734a-e062-4145-8d7c-954700e9d46b) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/2.%20PQ%202%20(Language).sql)
 
 
 <br>
@@ -159,7 +159,7 @@ The average watch time per user on Jotstar (351.73 hours) is dramatically higher
 
 <br>
 
-![image](https://github.com/user-attachments/assets/02fefc8a-5ce8-41b3-9460-bc36aee3d72e) [code] (https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/12.%20PQ%205%20(AWT_DEVICE_TYPE).sql)
+![image](https://github.com/user-attachments/assets/02fefc8a-5ce8-41b3-9460-bc36aee3d72e) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/12.%20PQ%205%20(AWT_DEVICE_TYPE).sql)
 
 <br>
 
