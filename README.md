@@ -211,7 +211,7 @@ Overall, the combined analysis strongly suggests that LioCinema faces a greater 
 
 <br>
 
-![image](https://github.com/user-attachments/assets/7d56436d-e85d-44e2-b24c-036b26cbfb3a)
+![image](https://github.com/user-attachments/assets/219da8ca-c946-48b5-a01b-005154d8fd7c)
 
 
 <br>
@@ -224,7 +224,7 @@ LioCinema's upgrade patterns suggest a more traditional funnel, with the initial
 
 <br>
 
-![image](https://github.com/user-attachments/assets/219da8ca-c946-48b5-a01b-005154d8fd7c)
+![image](https://github.com/user-attachments/assets/7d56436d-e85d-44e2-b24c-036b26cbfb3a)
 
 
 <br>
