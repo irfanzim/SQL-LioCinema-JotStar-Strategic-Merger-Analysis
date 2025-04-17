@@ -211,12 +211,28 @@ Overall, the combined analysis strongly suggests that LioCinema faces a greater 
 
 <br>
 
-![image](https://github.com/user-attachments/assets/219da8ca-c946-48b5-a01b-005154d8fd7c)
+![image](https://github.com/user-attachments/assets/7d56436d-e85d-44e2-b24c-036b26cbfb3a)
 
 
 <br>
 
 LioCinema's upgrade patterns suggest a more traditional funnel, with the initial conversion from free being to the Basic plan. This could indicate that the Basic tier offers a compelling entry point into paid subscriptions. Jotstar's upgrade dynamics are less conventional. The significant "upgrade" from VIP to Premium is a key area for further analysis. It could imply that the Premium tier offers better value or more desirable content than the VIP tier, leading users to switch. 
+
+### 📌 Q.9: How does the paid user percentage (e.g., Basic, Premium for LioCinema; VIP, Premium for Jotstar) vary across different platforms? Analyse the proportion of premium users in Tier 1, Tier 2, and Tier 3 cities and identify any notable trends or differences. 
+
+**Answer:**
+
+<br>
+
+![image](https://github.com/user-attachments/assets/219da8ca-c946-48b5-a01b-005154d8fd7c)
+
+
+<br>
+
+Both LioCinema and Jotstar experienced a decrease in their paid user percentages after users changed subscription plans. LioCinema saw a significant drop from 42.77% to 24.75%, while Jotstar's decreased from 72.89% to 65.39%. This indicates a trend of users moving away from paid tiers when making plan changes, more pronounced for LioCinema.
+
+
+
 
 
 
