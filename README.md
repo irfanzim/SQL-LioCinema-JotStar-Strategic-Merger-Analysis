@@ -223,19 +223,30 @@ LioCinema's upgrade patterns suggest a more traditional funnel, with the initial
 **Answer:**
 
 <br>
+**INITIAL PLAN:**
 
 ![image](https://github.com/user-attachments/assets/7d56436d-e85d-44e2-b24c-036b26cbfb3a)
 
+<br>
+**CURRENT PLAN:**
+
+![image](https://github.com/user-attachments/assets/c65ad519-be8f-4d65-99bc-4b23318852dd)
 
 <br>
 
 Both LioCinema and Jotstar experienced a decrease in their paid user percentages after users changed subscription plans. LioCinema saw a significant drop from 42.77% to 24.75%, while Jotstar's decreased from 72.89% to 65.39%. This indicates a trend of users moving away from paid tiers when making plan changes, more pronounced for LioCinema.
 
+<br>
+**INITIAL PREMIUM USERS BY CITY TIER:**
 
+![image](https://github.com/user-attachments/assets/bd69ceef-b6f4-4e07-b19b-8ca0d020a223)
 
+<br>
+**CURRENT PREMIUM USERS BY CITY TIER:**
+![image](https://github.com/user-attachments/assets/6fbc3502-d0db-426b-8425-f8785d2cbc2a)
 
-
-
+<br>
+Jotstar continues to exhibit a strong concentration of premium users in Tier 1 cities, although the percentage has slightly decreased compared to initial plan. LioCinema shows a more significant change, with a increase in the Tier 1 premium user proportion and some fluctuation in Tier 2 and Tier 3.
 
    **Plan Pricing (Monthly):**
    - LioCinema Basic: ₹69  
