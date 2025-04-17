@@ -92,7 +92,7 @@ Jotstar exhibits a clear advantage in the breadth and depth of its content libra
 
 <br>
 
-![image](https://github.com/user-attachments/assets/f1fb4f45-57ed-49c1-b91b-5f623e5ba10b) [code] (https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/4.%20PQ%203%20(AGE_GROUP).sql)
+![image](https://github.com/user-attachments/assets/f1fb4f45-57ed-49c1-b91b-5f623e5ba10b) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/4.%20PQ%203%20(AGE_GROUP).sql)
 
 
 <br>
@@ -101,7 +101,7 @@ LioCinema's user base is heavily skewed towards the younger 18-24 age group, whi
 
 <br>
 
-![image](https://github.com/user-attachments/assets/e2d7312d-9401-444b-9000-a68d88cd179d) [code] (https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/5.%20PQ%203%20(CITY_TIER).sql)
+![image](https://github.com/user-attachments/assets/e2d7312d-9401-444b-9000-a68d88cd179d) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/5.%20PQ%203%20(CITY_TIER).sql)
 
 
 
