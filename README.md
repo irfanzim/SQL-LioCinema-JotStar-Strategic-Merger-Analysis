@@ -56,6 +56,7 @@ The management team at Lio wants to gain insights into:
   - **First Duration**: From `subscription_date` to either `last_active_date` or `plan_change_date` (whichever comes first).
   - **Second Duration**: From `plan_change_date` to the end of the analysis period (November 30, 2024).
   - Any values where `last_active_date` or `plan_change_date` **exceeded November 30, 2024** were considered null.
+  - Subscription plans are assumed to renew on the same day each month. However, if that date matches the last_active_date, it’s assumed the user did not renew and no revenue is counted for that month
 
 
 ---
