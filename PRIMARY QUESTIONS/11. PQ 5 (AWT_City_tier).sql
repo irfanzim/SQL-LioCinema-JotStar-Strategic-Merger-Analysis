@@ -1,36 +1,30 @@
-WITH TOTAL_WATCH_TIME AS (
-	SELECT
-		USER_ID,
-		SUM(TOTAL_WATCH_TIME_MINS/60) AS TWT_HRS,
-		PLATFORM
-	FROM
-		JOTSTAR_DB.COMBINED_CONSUMPTION
-	GROUP BY
-		USER_ID,
-		PLATFORM
-),
-CITY_TIER_STATUS AS(
-	SELECT
-		S.CITY_TIER,
-		COUNT(*) AS TOTAL_USER,
-        SUM(TWT.TWT_HRS) AS TWT_HRS,
-        TWT.PLATFORM
-	FROM
-		jotstar_db.combined_subscribers s
-	LEFT JOIN
-		TOTAL_WATCH_TIME  TWT ON TWT.USER_ID=S.USER_ID
-	GROUP BY
-		CITY_TIER,
-        PLATFORM
-)
-
-SELECT
-	CITY_TIER,
-    TWT_HRS,
-    (TWT_HRS/TOTAL_USER) AS AVG_WT_HRSM,
-    PLATFORM
-FROM
-	CITY_TIER_STATUS
+with city_tier_status as (
+select
+	city_tier,
+    count(*) as total_users,
+    sum(total_watch_time_mins/60) as twt_hrs,
+    platform
+from
+	city_tier_consumption
 group by
 	city_tier,
     platform
+),
+avg_wt_hrs as (
+select
+	city_tier,
+    total_users,
+    twt_hrs,
+    platform,
+    cast(twt_hrs/total_users as decimal(10,2)) as avg_wt_hrs
+from
+	city_tier_status
+)
+select
+	city_tier,
+    sum(case when platform="liocinema" then avg_wt_hrs else 0 end) as lio_avg_wt_hrs,
+	sum(case when platform="jotstar" then avg_wt_hrs else 0 end) as jot_avg_wt_hrs
+from
+	avg_wt_hrs
+group by
+	city_tier
