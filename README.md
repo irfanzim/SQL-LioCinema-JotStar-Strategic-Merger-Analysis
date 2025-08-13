@@ -21,10 +21,43 @@ The management team at Lio wants to gain insights into:
 
 ---
 
+## 📂 Dataset
+
+- Available via [Codebasics Challenge 14](https://codebasics.io/challenge/codebasics-resume-project-challenge)
+- Contains:
+  - `subscribers` table
+  - `contents` table
+  - `content_consumption` table
+- Each platform (LioCinema, Jotstar) has its own database structure.
+
+---
+
 ## 🧰 Tech Stack
 
 - **MySQL** – Core data wrangling and analysis
-- **Power-Bi** – For visual dashboard. [Click Here](https://github.com/irfanzim/Power-BI-LioCinema-Jotstar-Merger-Analysis-)
+- **Power-Bi** – For visual dashboard. [Click Here](https://tinyurl.com/9x5ephrj)
+
+---
+
+## 🧮 Methodology
+
+- All data analysis was performed using **MySQL**.
+- Join operations were used to consolidate **subscriber**, **content**, and **consumption** data.
+- The dataset was mostly clean, requiring minimal preprocessing.
+- A new **`Combined_subscriber`** table was created with four additional columns:
+  - `up_down_status` – to track upgrade and downgrade transitions
+  - `activity_status` – to classify users as active or inactive
+  - `current_subscription_plan` – reflects the most recent subscription as of November 30, 2024
+  - `revenue` – estimated revenue contribution per user
+
+- A subscription was considered **inactive** if `last_active_date` had a value.
+
+- For revenue calculation, the following logic was applied:
+  - **First Duration**: From `subscription_date` to either `last_active_date` or `plan_change_date` (whichever comes first).
+  - **Second Duration**: From `plan_change_date` to the end of the analysis period (November 30, 2024).
+  - Any values where `last_active_date` or `plan_change_date` **exceeded November 30, 2024** were considered null.
+  - Subscription plans are assumed to renew on the same day each month. However, if that date matches the last_active_date, it’s assumed the user did not renew and no revenue is counted for that month
+
 
 ---
 
@@ -50,7 +83,7 @@ LioCinema significantly outweighs Jotstar in terms of the total number of users.
 
 <br>
 
-![Screenshot 2025-04-16 110433](https://github.com/user-attachments/assets/1796a5c5-f042-41a4-a92e-af7de615d17f)
+![Screenshot 2025-04-16 110433](https://github.com/user-attachments/assets/1796a5c5-f042-41a4-a92e-af7de615d17f) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/1.%20PQ%201.sql)
 
 <br>
 
@@ -62,7 +95,7 @@ The data clearly indicates that LioCinema has a significantly larger user base a
 
 <br>
 
-![image](https://github.com/user-attachments/assets/378b4132-9c44-4185-b765-0b57ccfc89c6)
+![image](https://github.com/user-attachments/assets/378b4132-9c44-4185-b765-0b57ccfc89c6) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/Check%20Metrics/2.%20Total%20Content.sql)
 
 
 <br>
@@ -71,7 +104,7 @@ Jotstar has more content than liocinema.
 
 <br>
 
-![image](https://github.com/user-attachments/assets/8452734a-e062-4145-8d7c-954700e9d46b)
+![image](https://github.com/user-attachments/assets/8452734a-e062-4145-8d7c-954700e9d46b) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/2.%20PQ%202%20(Language).sql)
 
 
 <br>
@@ -80,7 +113,7 @@ The content portfolios of LioCinema and Jotstar exhibit distinct strategic focus
 
 <br>
 
-![image](https://github.com/user-attachments/assets/7578369b-b0d8-416a-b8aa-f71ac7c157fe)
+![image](https://github.com/user-attachments/assets/7578369b-b0d8-416a-b8aa-f71ac7c157fe) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/3.%20PQ%202%20(Content%20Type).sql)
 
 <br>
 
@@ -92,7 +125,7 @@ Jotstar exhibits a clear advantage in the breadth and depth of its content libra
 
 <br>
 
-![image](https://github.com/user-attachments/assets/f1fb4f45-57ed-49c1-b91b-5f623e5ba10b)
+![image](https://github.com/user-attachments/assets/f1fb4f45-57ed-49c1-b91b-5f623e5ba10b) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/4.%20PQ%203%20(AGE_GROUP).sql)
 
 
 <br>
@@ -101,7 +134,7 @@ LioCinema's user base is heavily skewed towards the younger 18-24 age group, whi
 
 <br>
 
-![image](https://github.com/user-attachments/assets/e2d7312d-9401-444b-9000-a68d88cd179d)
+![image](https://github.com/user-attachments/assets/e2d7312d-9401-444b-9000-a68d88cd179d) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/5.%20PQ%203%20(CITY_TIER).sql)
 
 
 
@@ -111,7 +144,7 @@ The user distribution across city tiers reveals distinct market penetration stra
 
 <br>
 
-![image](https://github.com/user-attachments/assets/3d33c9f6-3759-4fa4-990e-34ab9e903ddd)
+![image](https://github.com/user-attachments/assets/3d33c9f6-3759-4fa4-990e-34ab9e903ddd) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/6.%20PQ%203%20(SUBCRIPTION_PLAN).sql)
 
 
 <br>
@@ -124,7 +157,7 @@ LioCinema relies heavily on a freemium model, with a large majority of its users
 
 <br>
 
-![image](https://github.com/user-attachments/assets/e2d4e3ee-b61d-4cb8-8fee-58e39d1e16fb)
+![image](https://github.com/user-attachments/assets/e2d4e3ee-b61d-4cb8-8fee-58e39d1e16fb) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/7.%20PQ%204%20(ACTIVITY%20%25).sql)
 
 <br>
 
@@ -132,7 +165,7 @@ The user activity data reveals a stark contrast in user engagement between LioCi
 
 <br>
 
-![image](https://github.com/user-attachments/assets/e3711a66-2d57-4864-aa82-0562befc568d)
+![image](https://github.com/user-attachments/assets/e3711a66-2d57-4864-aa82-0562befc568d) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/8.%20PQ%204%20(ACTIVITY%20%25%20AGE-GROUP).sql)
 
 <br>
 
@@ -140,7 +173,7 @@ For LioCinema, younger users (18-24) show a higher tendency towards inactivity c
 
 <br>
 
-![image](https://github.com/user-attachments/assets/895502e8-302b-4efc-bbad-c341a77e8e7c)
+![image](https://github.com/user-attachments/assets/895502e8-302b-4efc-bbad-c341a77e8e7c)[code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/9.%20PQ%204%20(ACTIVITY%20%25%20SUB_PLAN).sql)
 
 <br>
 
@@ -151,7 +184,7 @@ For Liocinema, free users exhibit the lowest activity and highest inactivity, su
 
 <br>
 
-![image](https://github.com/user-attachments/assets/db789985-fdac-453c-8860-cf94f54908cc)
+![image](https://github.com/user-attachments/assets/db789985-fdac-453c-8860-cf94f54908cc) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/10.%20PQ%205%20(Average%20watch%20time).sql)
 
 <br>
 
@@ -159,7 +192,7 @@ The average watch time per user on Jotstar (351.73 hours) is dramatically higher
 
 <br>
 
-![image](https://github.com/user-attachments/assets/02fefc8a-5ce8-41b3-9460-bc36aee3d72e)
+![image](https://github.com/user-attachments/assets/02fefc8a-5ce8-41b3-9460-bc36aee3d72e) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/12.%20PQ%205%20(AWT_DEVICE_TYPE).sql)
 
 <br>
 
@@ -167,7 +200,7 @@ Across all device types, Jotstar users exhibit significantly higher average watc
 
 <br>
 
-![image](https://github.com/user-attachments/assets/ec79711f-cfc9-411f-9eea-156ea9710efd)
+![image](https://github.com/user-attachments/assets/ec79711f-cfc9-411f-9eea-156ea9710efd) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/11.%20PQ%205%20(AWT_City_tier).sql)
 
 <br>
 
@@ -179,7 +212,7 @@ Jotstar users consistently spend significantly more time watching content across
 
 <br>
 
-![image](https://github.com/user-attachments/assets/e42feb16-ebbd-40b8-bb91-8249a337fb30)
+![image](https://github.com/user-attachments/assets/e42feb16-ebbd-40b8-bb91-8249a337fb30) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/13.%20PQ%206.sql)
 
 
 <br>
@@ -195,12 +228,12 @@ Therefore, less engaged users, characterized by lower watch times, are indeed mo
 
 **Based on month by month analysis:**
 
-![image](https://github.com/user-attachments/assets/bf7f86ef-5ff7-4e76-95a7-92adf184f820)
+![image](https://github.com/user-attachments/assets/bf7f86ef-5ff7-4e76-95a7-92adf184f820) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/14.%20PQ%207%20(BASED%20ON%20MONTHLY%20SUBSCRIBERS).sql)
 
 
 ****Based on cumulative user analysis:**
 
-![image](https://github.com/user-attachments/assets/bb82bbb9-7d2a-4be3-96dc-a50eab98232f)
+![image](https://github.com/user-attachments/assets/bb82bbb9-7d2a-4be3-96dc-a50eab98232f) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/15.%20PQ%207%20(BASED%20ON%20CUMULATIVE%20SUBSCRIBERS).sql)
 
 
 <br>
@@ -213,7 +246,7 @@ Overall, the combined analysis strongly suggests that LioCinema faces a greater 
 
 <br>
 
-![image](https://github.com/user-attachments/assets/219da8ca-c946-48b5-a01b-005154d8fd7c)
+![image](https://github.com/user-attachments/assets/219da8ca-c946-48b5-a01b-005154d8fd7c) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/16.%20PQ%208.sql)
 
 
 <br>
@@ -227,12 +260,12 @@ LioCinema's upgrade patterns suggest a more traditional funnel, with the initial
 <br>
 **INITIAL PLAN:**
 
-![image](https://github.com/user-attachments/assets/7d56436d-e85d-44e2-b24c-036b26cbfb3a)
+![image](https://github.com/user-attachments/assets/7d56436d-e85d-44e2-b24c-036b26cbfb3a) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/17.%20PQ9%20(INITIAL_PAID_USER%20%25).sql)
 
 <br>
 **CURRENT PLAN:**
 
-![image](https://github.com/user-attachments/assets/c65ad519-be8f-4d65-99bc-4b23318852dd)
+![image](https://github.com/user-attachments/assets/c65ad519-be8f-4d65-99bc-4b23318852dd) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/19.%20PQ9%20(CURRENT_PAID_USER%20%25).sql)
 
 <br>
 
@@ -241,12 +274,12 @@ Both LioCinema and Jotstar experienced a decrease in their paid user percentages
 <br>
 **INITIAL PREMIUM USERS BY CITY TIER:**
 
-![image](https://github.com/user-attachments/assets/bd69ceef-b6f4-4e07-b19b-8ca0d020a223)
+![image](https://github.com/user-attachments/assets/bd69ceef-b6f4-4e07-b19b-8ca0d020a223) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/18.%20PQ9%20(INITIAL_PAID_USER%20%25%20BY%20CITY_TIER).sql)
 
 <br>
 **CURRENT PREMIUM USERS BY CITY TIER:**
 
-![image](https://github.com/user-attachments/assets/6fbc3502-d0db-426b-8425-f8785d2cbc2a)
+![image](https://github.com/user-attachments/assets/6fbc3502-d0db-426b-8425-f8785d2cbc2a) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/20.%20PQ9%20(CURRENT_PAID_USER%20%25%20BY%20CITY_TIER).sql)
 
 <br>
 Jotstar continues to exhibit a strong concentration of premium users in Tier 1 cities, although the percentage has slightly decreased compared to initial plan. LioCinema shows a more significant change, with a increase in the Tier 1 premium user proportion and some fluctuation in Tier 2 and Tier 3.
@@ -270,7 +303,7 @@ time spent under each plan.
 
 <br>
 
-![image](https://github.com/user-attachments/assets/3e481ead-d85a-4294-a2dc-cb8db4c728a4)
+![image](https://github.com/user-attachments/assets/3e481ead-d85a-4294-a2dc-cb8db4c728a4) [code 1](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/21.%20PQ10%20(Revenue_calculation).sql), [code 2](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/22.%20Platfrom%20Revenue.sql)
 
 <br>
 
@@ -280,21 +313,6 @@ The combined total revenue generated by LioCinema and Jotstar amounts to 66.1 Mi
 
 <br>
 This analysis compares the user base, growth trends, content strategy, user demographics, engagement levels, subscription patterns, and revenue generation of LioCinema and Jotstar between January and November 2024. Key findings reveal that while both platforms are growing, Jotstar consistently demonstrates a stronger performance across several critical metrics, including user engagement, paid subscriber proportion, and revenue generation. LioCinema exhibits a larger free user base and a more dispersed user distribution across city tiers but struggles with lower engagement and higher downgrade rates.
----
 
-## 📂 Dataset
 
-- Available via [Codebasics Challenge 14](https://codebasics.io/challenge/codebasics-resume-project-challenge)
-- Contains:
-  - `subscribers` table
-  - `contents` table
-  - `content_consumption` table
-- Each platform (LioCinema, Jotstar) has its own database structure.
 
----
-
-## 🧮 Methodology
-
-- All data analysis was performed using **MySQL**.
-- Join operations were used to consolidate user, plan, and consumption data.
-- Case statements and date logic were used for revenue computation.
