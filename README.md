@@ -184,8 +184,8 @@ For Liocinema, free users exhibit the lowest activity and highest inactivity, su
 
 <br>
 
-![image](<img width="335" height="104" alt="Screenshot 2025-08-13 215630" src="https://github.com/user-attachments/assets/5c35c49f-9459-432a-860b-12dc6cdc62d6" />
-) [code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/11.%20PQ%205%20(AWT_City_tier).sql)
+<img width="335" height="104" alt="Screenshot 2025-08-13 215630" src="https://github.com/user-attachments/assets/a854d562-3bd6-443f-ae1b-ab1db5382392" />
+[code](https://github.com/irfanzim/SQL-LioCinema-JotStar-Strategic-Merger-Analysis/blob/main/PRIMARY%20QUESTIONS/11.%20PQ%205%20(AWT_City_tier).sql)
 
 <br>
 
